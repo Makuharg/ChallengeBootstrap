@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+/* CSS del navbar */
+
+.container-fluid {
+    height: 62px;
+    background-color: #28A745;
+}
+
+.container-fluid img {
+    width: 86px;
+    height: 25px;
+}
+
+/* css de las cards y main */
+.card {
+    padding: 0px;
+    width: 320px;
+    height: 380px;
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+}
+
+/* descripcion de las cards */
+.parrafoUno {
+    font-size: 20px;
+    color: #212529;
+    font-weight: 300;
+}
+
+.parrafoDental {
+    font-size: 18px;
+}
+
+.parrafoDos {
+    font-size: 16px;
+    color: #707070;
+    font-weight: 300;
+}
+
+.parrafoTres {
+    font-size: 13px;
+    color: #707070;
+    font-weight: 300;
+}
+
+/* precios de las cards */
+.precios {
+    border-top: 1px #707070 solid;
+}
+
+.valorReal {
+    text-decoration: line-through ;
+    color: #707070;
+    opacity: 100%;
+    font-size: 16px;
+    font-weight: 300;
+
+}
+
+.oferta {
+    color: #28A745;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* CSS del Form */
+.form-control {
+    color: #707070;
+}
+
+.footerForm {
+    background-color: #28A745;
+    height: 241px;
+}
+
+.boton {
+    width: 113px;
+}
+                              
+/* CSS del Footer */
+footer img {
+    width: 82px;
+}
+
+footer p {
+    color: #707070;
+}
